@@ -1,0 +1,10 @@
+ドキュメントの記述例です．
+
+名前: ほげほげ
+slack ID: hogehoge
+
+AppDelegate.m l.35
+NSL0gのスペルが違う
+NSLogという正しいスペルに修正した
+
+...

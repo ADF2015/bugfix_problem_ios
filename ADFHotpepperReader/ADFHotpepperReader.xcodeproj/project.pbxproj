@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		555B02791AB69056000BCFBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 555B02781AB69056000BCFBC /* main.m */; };
+		555B027C1AB69056000BCFBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 555B027B1AB69056000BCFBC /* AppDelegate.m */; };
+		555B027F1AB69056000BCFBC /* ShopListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 555B027E1AB69056000BCFBC /* ShopListViewController.m */; };
+		555B02821AB69056000BCFBC /* ShopDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 555B02811AB69056000BCFBC /* ShopDetailViewController.m */; };
+		555B02871AB69056000BCFBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 555B02861AB69056000BCFBC /* Images.xcassets */; };
+		555B028A1AB69056000BCFBC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 555B02881AB69056000BCFBC /* LaunchScreen.xib */; };
+		555B02961AB69056000BCFBC /* ADFHotpepperReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 555B02951AB69056000BCFBC /* ADFHotpepperReaderTests.m */; };
+		555B02A11AB69277000BCFBC /* Shop.m in Sources */ = {isa = PBXBuildFile; fileRef = 555B02A01AB69277000BCFBC /* Shop.m */; };
+		555B02A41AB6A103000BCFBC /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = 555B02A31AB6A103000BCFBC /* Request.m */; };
+		555B02A91AB6D166000BCFBC /* ShopDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 555B02A81AB6D166000BCFBC /* ShopDetailView.m */; };
+		555B02B01AB6F4A2000BCFBC /* ShopListTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 555B02AF1AB6F4A2000BCFBC /* ShopListTableViewDataSource.m */; };
+		555B02B41AB719AD000BCFBC /* ShopWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 555B02B31AB719AD000BCFBC /* ShopWebViewController.m */; };
+		6AF713641AC570EB00691C18 /* ADFNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF713631AC570EB00691C18 /* ADFNotifications.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		555B02901AB69056000BCFBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 555B026B1AB69055000BCFBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 555B02721AB69056000BCFBC;
+			remoteInfo = ADFHotpepperReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		555B02731AB69056000BCFBC /* ADFHotpepperReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADFHotpepperReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		555B02771AB69056000BCFBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		555B02781AB69056000BCFBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		555B027A1AB69056000BCFBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		555B027B1AB69056000BCFBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		555B027D1AB69056000BCFBC /* ShopListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShopListViewController.h; sourceTree = "<group>"; };
+		555B027E1AB69056000BCFBC /* ShopListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopListViewController.m; sourceTree = "<group>"; };
+		555B02801AB69056000BCFBC /* ShopDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShopDetailViewController.h; sourceTree = "<group>"; };
+		555B02811AB69056000BCFBC /* ShopDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopDetailViewController.m; sourceTree = "<group>"; };
+		555B02861AB69056000BCFBC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		555B02891AB69056000BCFBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		555B028F1AB69056000BCFBC /* ADFHotpepperReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADFHotpepperReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		555B02941AB69056000BCFBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		555B02951AB69056000BCFBC /* ADFHotpepperReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADFHotpepperReaderTests.m; sourceTree = "<group>"; };
+		555B029F1AB69277000BCFBC /* Shop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shop.h; sourceTree = "<group>"; };
+		555B02A01AB69277000BCFBC /* Shop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shop.m; sourceTree = "<group>"; };
+		555B02A21AB6A103000BCFBC /* Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		555B02A31AB6A103000BCFBC /* Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Request.m; sourceTree = "<group>"; };
+		555B02A71AB6D166000BCFBC /* ShopDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopDetailView.h; sourceTree = "<group>"; };
+		555B02A81AB6D166000BCFBC /* ShopDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopDetailView.m; sourceTree = "<group>"; };
+		555B02AE1AB6F4A2000BCFBC /* ShopListTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopListTableViewDataSource.h; sourceTree = "<group>"; };
+		555B02AF1AB6F4A2000BCFBC /* ShopListTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopListTableViewDataSource.m; sourceTree = "<group>"; };
+		555B02B21AB719AD000BCFBC /* ShopWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopWebViewController.h; sourceTree = "<group>"; };
+		555B02B31AB719AD000BCFBC /* ShopWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopWebViewController.m; sourceTree = "<group>"; };
+		6AF713621AC570EB00691C18 /* ADFNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADFNotifications.h; path = ADFHotpepperReader/ADFNotifications.h; sourceTree = SOURCE_ROOT; };
+		6AF713631AC570EB00691C18 /* ADFNotifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADFNotifications.m; path = ADFHotpepperReader/ADFNotifications.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		555B02701AB69056000BCFBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555B028C1AB69056000BCFBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		555B026A1AB69055000BCFBC = {
+			isa = PBXGroup;
+			children = (
+				555B02751AB69056000BCFBC /* ADFHotpepperReader */,
+				555B02921AB69056000BCFBC /* ADFHotpepperReaderTests */,
+				555B02741AB69056000BCFBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		555B02741AB69056000BCFBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				555B02731AB69056000BCFBC /* ADFHotpepperReader.app */,
+				555B028F1AB69056000BCFBC /* ADFHotpepperReaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		555B02751AB69056000BCFBC /* ADFHotpepperReader */ = {
+			isa = PBXGroup;
+			children = (
+				555B027A1AB69056000BCFBC /* AppDelegate.h */,
+				555B027B1AB69056000BCFBC /* AppDelegate.m */,
+				6AF713621AC570EB00691C18 /* ADFNotifications.h */,
+				6AF713631AC570EB00691C18 /* ADFNotifications.m */,
+				555B02A51AB6B5CD000BCFBC /* Model */,
+				555B02AA1AB6E777000BCFBC /* View */,
+				555B02A61AB6B7B4000BCFBC /* Controller */,
+				555B02B11AB6FFA7000BCFBC /* DataSource */,
+				555B02861AB69056000BCFBC /* Images.xcassets */,
+				555B02881AB69056000BCFBC /* LaunchScreen.xib */,
+				555B02761AB69056000BCFBC /* Supporting Files */,
+			);
+			path = ADFHotpepperReader;
+			sourceTree = "<group>";
+		};
+		555B02761AB69056000BCFBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				555B02771AB69056000BCFBC /* Info.plist */,
+				555B02781AB69056000BCFBC /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		555B02921AB69056000BCFBC /* ADFHotpepperReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				555B02951AB69056000BCFBC /* ADFHotpepperReaderTests.m */,
+				555B02931AB69056000BCFBC /* Supporting Files */,
+			);
+			path = ADFHotpepperReaderTests;
+			sourceTree = "<group>";
+		};
+		555B02931AB69056000BCFBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				555B02941AB69056000BCFBC /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		555B02A51AB6B5CD000BCFBC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				555B02A21AB6A103000BCFBC /* Request.h */,
+				555B02A31AB6A103000BCFBC /* Request.m */,
+				555B029F1AB69277000BCFBC /* Shop.h */,
+				555B02A01AB69277000BCFBC /* Shop.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		555B02A61AB6B7B4000BCFBC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				555B027D1AB69056000BCFBC /* ShopListViewController.h */,
+				555B027E1AB69056000BCFBC /* ShopListViewController.m */,
+				555B02801AB69056000BCFBC /* ShopDetailViewController.h */,
+				555B02811AB69056000BCFBC /* ShopDetailViewController.m */,
+				555B02B21AB719AD000BCFBC /* ShopWebViewController.h */,
+				555B02B31AB719AD000BCFBC /* ShopWebViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		555B02AA1AB6E777000BCFBC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				555B02A71AB6D166000BCFBC /* ShopDetailView.h */,
+				555B02A81AB6D166000BCFBC /* ShopDetailView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		555B02B11AB6FFA7000BCFBC /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				555B02AE1AB6F4A2000BCFBC /* ShopListTableViewDataSource.h */,
+				555B02AF1AB6F4A2000BCFBC /* ShopListTableViewDataSource.m */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		555B02721AB69056000BCFBC /* ADFHotpepperReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555B02991AB69056000BCFBC /* Build configuration list for PBXNativeTarget "ADFHotpepperReader" */;
+			buildPhases = (
+				555B026F1AB69056000BCFBC /* Sources */,
+				555B02701AB69056000BCFBC /* Frameworks */,
+				555B02711AB69056000BCFBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADFHotpepperReader;
+			productName = ADFHotpepperReader;
+			productReference = 555B02731AB69056000BCFBC /* ADFHotpepperReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		555B028E1AB69056000BCFBC /* ADFHotpepperReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555B029C1AB69056000BCFBC /* Build configuration list for PBXNativeTarget "ADFHotpepperReaderTests" */;
+			buildPhases = (
+				555B028B1AB69056000BCFBC /* Sources */,
+				555B028C1AB69056000BCFBC /* Frameworks */,
+				555B028D1AB69056000BCFBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				555B02911AB69056000BCFBC /* PBXTargetDependency */,
+			);
+			name = ADFHotpepperReaderTests;
+			productName = ADFHotpepperReaderTests;
+			productReference = 555B028F1AB69056000BCFBC /* ADFHotpepperReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		555B026B1AB69055000BCFBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Application Developer Festival";
+				TargetAttributes = {
+					555B02721AB69056000BCFBC = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					555B028E1AB69056000BCFBC = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 555B02721AB69056000BCFBC;
+					};
+				};
+			};
+			buildConfigurationList = 555B026E1AB69055000BCFBC /* Build configuration list for PBXProject "ADFHotpepperReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 555B026A1AB69055000BCFBC;
+			productRefGroup = 555B02741AB69056000BCFBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				555B02721AB69056000BCFBC /* ADFHotpepperReader */,
+				555B028E1AB69056000BCFBC /* ADFHotpepperReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		555B02711AB69056000BCFBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555B028A1AB69056000BCFBC /* LaunchScreen.xib in Resources */,
+				555B02871AB69056000BCFBC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555B028D1AB69056000BCFBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		555B026F1AB69056000BCFBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF713641AC570EB00691C18 /* ADFNotifications.m in Sources */,
+				555B02A11AB69277000BCFBC /* Shop.m in Sources */,
+				555B027C1AB69056000BCFBC /* AppDelegate.m in Sources */,
+				555B027F1AB69056000BCFBC /* ShopListViewController.m in Sources */,
+				555B02A91AB6D166000BCFBC /* ShopDetailView.m in Sources */,
+				555B02791AB69056000BCFBC /* main.m in Sources */,
+				555B02B41AB719AD000BCFBC /* ShopWebViewController.m in Sources */,
+				555B02821AB69056000BCFBC /* ShopDetailViewController.m in Sources */,
+				555B02B01AB6F4A2000BCFBC /* ShopListTableViewDataSource.m in Sources */,
+				555B02A41AB6A103000BCFBC /* Request.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555B028B1AB69056000BCFBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555B02961AB69056000BCFBC /* ADFHotpepperReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		555B02911AB69056000BCFBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 555B02721AB69056000BCFBC /* ADFHotpepperReader */;
+			targetProxy = 555B02901AB69056000BCFBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		555B02881AB69056000BCFBC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				555B02891AB69056000BCFBC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		555B02971AB69056000BCFBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		555B02981AB69056000BCFBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		555B029A1AB69056000BCFBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ADFHotpepperReader/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		555B029B1AB69056000BCFBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ADFHotpepperReader/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		555B029D1AB69056000BCFBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ADFHotpepperReaderTests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADFHotpepperReader.app/ADFHotpepperReader";
+			};
+			name = Debug;
+		};
+		555B029E1AB69056000BCFBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ADFHotpepperReaderTests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADFHotpepperReader.app/ADFHotpepperReader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		555B026E1AB69055000BCFBC /* Build configuration list for PBXProject "ADFHotpepperReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555B02971AB69056000BCFBC /* Debug */,
+				555B02981AB69056000BCFBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555B02991AB69056000BCFBC /* Build configuration list for PBXNativeTarget "ADFHotpepperReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555B029A1AB69056000BCFBC /* Debug */,
+				555B029B1AB69056000BCFBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555B029C1AB69056000BCFBC /* Build configuration list for PBXNativeTarget "ADFHotpepperReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555B029D1AB69056000BCFBC /* Debug */,
+				555B029E1AB69056000BCFBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 555B026B1AB69055000BCFBC /* Project object */;
+}
